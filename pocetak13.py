@@ -105,11 +105,26 @@ def isPrime(a):
 #     def __init__(self,testArr) -> None:
 #         self.testArr = testArr
 #     def Solve(self):
+#         difList = []
+#         difDict = {}
 #         dif = 1000000
-#         for i in range(1,len(self.testArr)):
-#             if dif < abs(self.testArr[i - 1] - self.testArr[i]):
-#                 dif = abs(self.testArr[i - 1] - self.testArr[i])
-        #$ To DO
+#         for i in range(len(self.testArr)):
+#             for j in range(len(self.testArr)):
+#                 if j == i:
+#                     continue
+#                 if dif > abs(self.testArr[i] - self.testArr[j]):
+#                     dif = abs(self.testArr[i] - self.testArr[j])
+#                     difList.append(dif)
+#                     difDict[str(dif)] = str([i,j])
+#         return difDict[str(min(difList))]
+# p1 = mySolution([1.1, 4.25, 0.79, 1.0, 4.23]) 
+# print(p1.Solve())
+
+                    
+
+
+            
+        
 
 
         
