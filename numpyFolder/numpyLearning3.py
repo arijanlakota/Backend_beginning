@@ -29,7 +29,7 @@ import seaborn as sns
 # sns.displot(x,kind="kde")
 # plt.show()
 #binomialDistribution
-x = random.binomial(n = 10,p = 0.5,size=10)
-sns.distplot(random.normal(loc=50, scale=5, size=1000), hist=False, label='normal')
-sns.distplot(random.binomial(n=100, p=0.5, size=1000), hist=False, label='binomial')
-plt.show()
+# x = random.binomial(n = 10,p = 0.5,size=10)
+# sns.distplot(random.normal(loc=50, scale=5, size=1000), hist=False, label='normal')
+# sns.distplot(random.binomial(n=100, p=0.5, size=1000), hist=False, label='binomial')
+# plt.show()
