@@ -258,3 +258,10 @@ import numpy as np
 # arr2 = np.array([0,40])
 # arr1.put([0,4],arr2)
 # print(arr1)
+#101
+# import sys
+# arr = np.arange(1,1990)
+# np.set_printoptions(threshold=sys.maxsize)
+# print(arr)
+
+
