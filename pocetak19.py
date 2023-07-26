@@ -182,6 +182,35 @@ import csv
 # fr = open('test.csv','r')
 # csv_reader = csv.reader(fr)
 # print(list(dict(csv_reader)))
+#yield function
+# def generator():
+#     yield "welcome"
+#     yield "to"
+#     yield "me"
+# gen_obj = generator()
+# print(type(gen_obj))
+# print(next(gen_obj))
+# print(next(gen_obj))
+# print(next(gen_obj))
+# def oddNumbers(numbers):
+#     for i in range(numbers):
+#         if i % 2:
+#             yield i
+# for i in oddNumbers(20):
+#     print(i)
+# def fSequence(n):
+#     temp1,temp2 = 0,1
+#     total = 2
+#     yield temp1,temp2
+#     while total < n:
+#         yield temp1 + temp2
+#         temp = temp2
+#         temp2 = temp1 + temp2
+#         temp1 = temp
+#         total +=1
+# fGenerator = fSequence(20)
+# print(list(fGenerator))
+
 
 
 
