@@ -49,6 +49,7 @@
 # testStr = testStr[:n] + testStr[n+1:]
 # print(testStr)
 #10
-testStr = "asdkjaskld"
-temp = testStr[0]
-testStr = testStr[-1] + testStr[1:-1] + temp
+# testStr = "asdkjaskld"
+# temp = testStr[0]
+# testStr = testStr[-1] + testStr[1:-1] + temp
+# print(testStr)
