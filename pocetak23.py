@@ -50,6 +50,6 @@ import json
 # pythonObject = json.loads(jsonObject,object_hook=is_complex_num)
 # print(pythonObject)
 #9
-python_obj = '{"a":  1, "a":  2, "a":  3, "a": 4, "b": 1, "b": 2}'
-jsonObject = json.loads(python_obj)
-print(jsonObject)
+# python_obj = '{"a":  1, "a":  2, "a":  3, "a": 4, "b": 1, "b": 2}'
+# jsonObject = json.loads(python_obj)
+# print(jsonObject)
