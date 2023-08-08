@@ -315,6 +315,53 @@
 # for i in range(6):
 #     myList.append({})
 # print(myList)
-
-
-
+#62
+# [print(i,sep='  ',end="") for i in range(6)]
+#63
+# sampleList = [1,2,3,4]
+# class mySolution():
+#     def __init__(self,testList,testStr) -> None:
+#         self.testStr = testStr
+#         self.testList = testList
+#     def Solve(self):
+#         return [i for i in map(lambda x:self.testStr + str(x),self.testList)]
+# p1 = mySolution(sampleList,'emp')
+# print(p1.Solve())
+#64
+# list1 = [1,2,3,4]
+# list2 = [-1,-2,-3,-4]
+# for i,j in zip(list1,list2):
+#     print(i,j)
+#65
+# testList = [3, 4, 0, 0, 0, 6, 2, 0, 6, 7, 6, 0, 0, 0, 9, 10, 7, 4, 4, 5, 3, 0, 0, 2, 9, 7, 1]
+# newList = [i for i in testList if i != 0
+# newList.extend([0] * testList.count(0))
+# print(newList)
+#66
+# nestedList = [[1,2,5],[6,0,7],[9,4,6,2,1],[2,3,54,6,4],[0,34,6,1,6,7]]
+# print(sorted(nestedList,key=sum,reverse=True)[0])
+#67
+# def findValues(spec,funcList):
+#     for i in funcList:
+#         if i > spec:
+#             yield i
+# newGenerator = findValues(5,[2,3,6,8])
+# print(*newGenerator)
+#68
+# x = [10, 20, 30]
+# y = [40, 50, 60]
+# x[:0] = y
+# print(x)
+#69
+# newList = []
+# nestedList =  [[10, 20], [40], [30, 56, 25], [10, 20], [33], [40]]
+# for i in nestedList:
+#     if i not in newList:
+#         newList.append(i)
+# print(newList)
+#70
+# myList = ['aabcd', 'abc', 'bcd', 'bkie', 'cder', 'cdsw', 'sdfsd', 'dagfa', 'acjd']
+# print([x for x in myList if x[0] == 'a'])
+#71
+# myList = [{},{1},{}]
+# print(all(len(x) == 0 for x in myList))
