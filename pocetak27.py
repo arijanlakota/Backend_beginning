@@ -202,19 +202,47 @@
 # testList = [3, 40, 41, 43, 74, 9]
 # testList = sorted(testList,key=lambda x:int(str(x)[0]),reverse=True)
 # print(testList)
-# def findIt(funcList):
-#     newList = []
+# def findThem(funcList):
 #     resultList = list()
+#     newList = list()
 #     for i in range(1,len(funcList)):
 #         if str(funcList[i-1])[0] == str(funcList[i])[0]:
 #             newList.append(i-1)
-#         if len(set(newList)) > 1:
-#             n = newList[-1]
-#             resultList.append(newList[:-1])
-#             newList.clear()
-#             newList.append(n)
-#         return resultList
-# print(findIt(testList))
+#             newList.append(i)
+#     return list(set(newList))[0],list(set(newList))[-1]
+# myRange = findThem(testList)
+# finalList = testList[:myRange[0]] + sorted(testList[myRange[0]:myRange[-1]+1],reverse=True) + testList[myRange[-1]+1:]
+# print(''.join(map(str,finalList)))
+#180
+# def create_largest_number(lst):
+#     if all(val == 0 for val in lst):
+#         return '0'
+#     result = ''.join(sorted((str(val) for val in lst), reverse=False,
+#                       key=lambda i: i*( len(str(min(lst))) * 2 // len(i))))
+#     return result
+#181
+# myList = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+# class myCicle():
+#     def __init__(self,funcList,cycleNum) -> None:
+#         self.funcList = funcList
+#         self.cycleNum = cycleNum
+#     def Solve(self):
+#         return [self.funcList[(self.cycleNum + i) % len(self.funcList)] for i in range(len(self.funcList))]
+# p1 = myCicle(myList,3)
+# print(p1.Solve())
+#182
+# testList = [[1, 2, 3, 5], [2, 3, 5, 4], [0, 5, 4, 1], [3, 7, 2, 1], [1, 2, 1, 2]]
+# print(sorted(testList,key=lambda x:sum(x))[0],sorted(testList,key=lambda x:sum(x))[-1])
+#183
+
+
+
+        
+
+
+            
+
+
         
             
         
