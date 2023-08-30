@@ -43,3 +43,33 @@
 #     return [myValue] * myLen
 # print(fillValue(0,7))
 #252
+# def mySort(funcList,n):
+#     funcList = sorted(funcList,reverse=True)
+#     return funcList[:n]
+# print(mySort([-2, -3, -1, -2, -4, 0, -5],3))
+#253
+# def mySort(funcList,n):
+#     funcList = sorted(funcList,reverse=False)
+#     return funcList[:n]
+# print(mySort([-2, -3, -1, -2, -4, 0, -5],3))
+#254
+# def calculateWeight(nums,weight):
+#     sum_w = sum(weight)
+#     sum_n = 0
+#     for i,j in zip(nums,weight):
+#         sum_n += i*j
+#     return sum_n / sum_w
+# print(calculateWeight([10, 50, 40],[2, 5, 3]))
+#255
+# newList = []
+# def deepFlatten(funcList):
+#     for i in funcList:
+#         if isinstance(i,list):
+#             deepFlatten(i)
+#         else:
+#             newList.append(i)
+#     return newList
+# print(deepFlatten([[[1, 2, 3], [4, 5]], 6]))
+    
+
+
