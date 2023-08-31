@@ -216,13 +216,13 @@
 #     return "n is less than number of vowels present in the string."
 # print(myFunc("Python Exercises", 3))
 #280
-newList = []
-nums = [1, 2, 3, 4, 5]
-for i in range(len(nums)):
-    for j in range(len(nums)):
-        if abs(nums[i] - nums[j]) == 3:
-            newList.append([nums[i],nums[j]])
-print(newList[::2])
+# newList = []
+# nums = [1, 2, 3, 4, 5]
+# for i in range(len(nums)):
+#     for j in range(len(nums)):
+#         if abs(nums[i] - nums[j]) == 3:
+#             newList.append([nums[i],nums[j]])
+# print(newList[::2])
 
     
 
